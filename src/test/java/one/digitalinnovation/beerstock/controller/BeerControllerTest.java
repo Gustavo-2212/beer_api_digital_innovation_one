@@ -56,6 +56,7 @@ public class BeerControllerTest {
                 .build();
     }
 
+    // Post é realizado e retorna um status code com sucesso
     @Test
     void whenPOSTIsCalledThenABeerIsCreated() throws Exception {
         // given
